@@ -1,0 +1,6 @@
+{
+  "require": {
+    "authorizenet/authorizenet": "~1.9.6",
+    "corals/payment": "@dev"
+  }
+}
