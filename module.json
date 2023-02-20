@@ -1,22 +1,20 @@
 {
-    "code": "corals-payment-cash",
-    "name": "Cash Payment Gateway",
+    "code": "corals-payment-authorizenet",
+    "name": "Authorize.Net Payment Gateway",
     "author": "Corals",
     "type": "payment",
     "description": "Payment Gateway, charges, subscriptions, invoices...",
-    "namespace": "Corals\\Modules\\Payment\\Cash\\",
-    "provider": "CashServiceProvider",
-    "version": "3.2.2",
-    "folder": "Stripe",
+    "namespace": "Corals\\Modules\\Payment\\AuthorizeNet",
+    "version": "3.0",
+    "folder": "AuthorizeNet",
     "autoload": "psr-4",
-    "icon": "fa fa-cc-stripe",
+    "icon": "fa fa-credit-card",
     "require": {
         "corals-payment": "^4.0"
     },
     "supported_platforms": [
         "Ecommerce",
         "Marketplace",
-        "Subscription",
-        "Reservation"
+        "Subscription"
     ]
 }
