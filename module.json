@@ -6,7 +6,7 @@
     "description": "Payment Gateway, charges, subscriptions, invoices...",
     "namespace": "Corals\\Modules\\Payment\\AuthorizeNet",
     "version": "3.0",
-    "folder": "AuthorizeNet",
+    "folder": "payment-authorizenet",
     "autoload": "psr-4",
     "icon": "fa fa-credit-card",
     "require": {
